@@ -1,7 +1,9 @@
 import json
 import uuid
+from flask import Flask
+app = Flask(__name__)
 
-
+@app.route("/view")
 def view():
     """
     view ToDo Items stored in a JSON File
@@ -20,7 +22,7 @@ def view():
 
     return data
 
-
+@app.route("/create")
 def create(item):
     """
     Create an item in a todo list with a unique ID
@@ -41,7 +43,7 @@ def create(item):
     # Return the created Id
     return id
 
-
+@app.route("/delete")
 def delete(item_id):
     """
     Delete the item with the specified ID 
@@ -63,4 +65,5 @@ def delete(item_id):
     # Return the item
     return item
 
-
+if __name__ == "__main__":
+    app.run()
