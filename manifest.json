@@ -1,0 +1,23 @@
+{
+    "manifest_version": 1,
+    "name": "Chrome_Extension_Workshop",
+    "description": "EasyNote Chrome Extention for Hackathon: Help users review videos with keywords!",
+    "version": "1.0.0",
+    "icons": {"128": "icon.png"},
+    "background": {
+        "scripts": ["./background.js"]
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_Title": "EasyNote",
+        "default_icon": "icon.png"
+    },
+   
+    "permissions": [
+    "tabs", 
+    "https://www.google.com/*",
+    "storage"
+]
+
+ 
+}
