@@ -1,0 +1,9 @@
+{
+    "name": "Todos",
+    "version": "1.0.0",
+    "description": "BostonHacks Chrome Extension Workshop",
+    "manifest_version": 3,
+    "action":{
+        "default_popup": "index.html"
+    }
+}
