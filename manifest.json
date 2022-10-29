@@ -1,7 +1,7 @@
 {
     "manifest_version": 1,
     "name": "Chrome_Extension_Workshop",
-    "description": "EasyNote Chrome Extention for Hackathon: Help users review videos with keywords!",
+    "description": "BostonHacks Hackathon Workshop for creating a To-Do list using Chrome Extension",
     "version": "1.0.0",
     "icons": {"128": "icon.png"},
     "background": {
@@ -9,7 +9,7 @@
     },
     "browser_action": {
         "default_popup": "popup.html",
-        "default_Title": "EasyNote",
+        "default_Title": "Todo",
         "default_icon": "icon.png"
     },
    

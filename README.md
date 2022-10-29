@@ -1,1 +1,1 @@
-# Chrome_Extnsion_Workshop
+# Chrome_Extension_Workshop
