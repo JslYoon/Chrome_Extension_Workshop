@@ -11,7 +11,7 @@
   <body>
         <h2>Items to do:</h2>
 
-        <table class="table">
+        <table class="table" id="todoTable">
             <thead>
                 <tr>
                     <th>Name:</th>
@@ -20,11 +20,10 @@
             </thead>
 
             <tbody>
-                
+
             </tbody>
         </table>
 
-    <form>
         <div class="mb-3">
             <input 
                 type="text" 
@@ -34,13 +33,12 @@
             />
         </div>
 
-        <button 
+        <input 
             type="submit" 
             class="btn btn-primary"
-        >
-            Create
-        </button>
-      </form>
+            id="createButton"
+            value="Create"
+        />
     
     <script src="index.js"></script>
   </body>
