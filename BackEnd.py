@@ -9,12 +9,12 @@ app = Flask(__name__)
 # calling CORS on the app allows everyone to get info from the app. By default, servers an only request from themselves
 CORS(app)
 
+# This function will run when the "/" route is called with a GET request.
 @app.route("/")
 def index():
     return "Hello Bostonhacks!"
 
-
-
+# This function will run when the "/create" route is called with a POST request.
 @app.route("/create", methods=["POST"])
 def create():
     """
@@ -45,6 +45,7 @@ def create():
         # Return a response
         return {"message": type(e)}
 
+# This function will run when the "/view" route is called with a GET request.
 @app.route("/view")
 def view():
     """
@@ -63,7 +64,7 @@ def view():
         # Return a response
         return {"message": type(e)}
 
-
+# This function will run when the "/delete" route is called with a DELETE request.
 @app.route("/delete", methods=["DELETE"])
 def delete():
     """
@@ -92,4 +93,5 @@ def delete():
         return {"message": type(e)}
 
 if __name__ == "__main__":
+    # debug=True will rerun the code whenever a change is made.
     app.run(debug=True)
