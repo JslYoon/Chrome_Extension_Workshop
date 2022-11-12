@@ -35,6 +35,7 @@ Experiment using different technologies!
 ### BackEnd
 - [Flask](https://flask.palletsprojects.com/en/latest/quickstart/)
 - [Express](http://expressjs.com/en/starter/hello-world.html)
+- [Microsoft Cloud](https://aka.ms/startedu)
 
 ### Databases
 - [MongoDB](https://www.mongodb.com/cloud/atlas/register)
