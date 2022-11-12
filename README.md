@@ -20,3 +20,22 @@ cd <PATH_TO_THIS_FOLDER>
 pip install -r requirements.txt
 python Backend.py
 ```
+
+## Next Steps
+Experiment using different technologies!
+
+### CSS Styling
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- [Tailwind](https://tailwindcss.com/docs/installation)
+
+### FrontEnd
+- [React](https://reactjs.org/docs/getting-started.html)
+- [Angular](https://angular.io/start)
+
+### BackEnd
+- [Flask](https://flask.palletsprojects.com/en/latest/quickstart/)
+- [Express](http://expressjs.com/en/starter/hello-world.html)
+
+### Databases
+- [MongoDB](https://www.mongodb.com/cloud/atlas/register)
+- [CockroachDB](https://cockroachlabs.cloud/signup?referralId=start_instantly_product_page&_ga=2.102655809.1500683655.1668258720-1589866821.1668258720)
